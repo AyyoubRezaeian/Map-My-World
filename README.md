@@ -3,7 +3,7 @@ This is a project to localize a robot inside a building by using [adaptive monte
 
 # Run the project: 
 * Clone the repository
-* Open the repository and make it (`catkin_make`)
+* Open the repository and build/make (`catkin_make`)
 * Launch the robot in Gazebo to load plug-ins, world, and rviz
 ```
 roslaunch my_robot world.launch
