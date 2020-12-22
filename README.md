@@ -7,4 +7,8 @@
 ```
 roslaunch my_robot world.launch
 ```
+* Launch amcl node
+```
+roslaunch my_robot amcl.launch
+```
 
