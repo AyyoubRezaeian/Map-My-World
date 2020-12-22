@@ -33,7 +33,7 @@
         args="-urdf -param robot_description -model my_robot 
               -x $(arg x) -y $(arg y) -z $(arg z)
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="(-d $(find my_robot)/config/rviz_thirdproj.rviz)"/>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="(-d $(find my_robot)/rviz/rviz_thirdproj.rviz)"/>
 
 
 
