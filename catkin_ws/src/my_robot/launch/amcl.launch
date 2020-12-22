@@ -11,8 +11,8 @@
   	<param name="base_frame_id" value="robot_footprint"/>
   	<param name="global_frame_id" value="map"/>
 
-    	<param name="initial_pose_x" value="0"/>
-    	<param name="initial_pose_y" value="0"/>
+    	<param name="initial_pose_x" value="0.0148"/>
+    	<param name="initial_pose_y" value="-.0.0129"/>
 	<!-- odom parameters -->
         <param name="odom_alpha1" value="0.05"/>
         <param name="odom_alpha2" value="0.05"/>
