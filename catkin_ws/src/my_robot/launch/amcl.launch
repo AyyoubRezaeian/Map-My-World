@@ -12,7 +12,7 @@
   	<param name="global_frame_id" value="map"/>
 
     	<param name="initial_pose_x" value="0.0148"/>
-    	<param name="initial_pose_y" value="-.0.0129"/>
+    	<param name="initial_pose_y" value="-0.0129"/>
 	<!-- odom parameters -->
         <param name="odom_alpha1" value="0.005"/>
         <param name="odom_alpha2" value="0.005"/>
@@ -24,13 +24,13 @@
         <param name="update_min_d" value="0.1"/>
         <param name="update_min_a" value="0.1"/>
 
-
 	<!--laser parameters/-->
         <param name="lazer_beam_max" value="50"/>
         <param name="lazer_max_range" value="15"/>
 
         <param name="laser_z_hit" value="0.99"/>
-        <param name="laser_z_rand" value="0.01"/>        
+        <param name="laser_z_rand" value="0.01"/>  
+      
 </node>
 
 

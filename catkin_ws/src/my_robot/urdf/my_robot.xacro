@@ -176,12 +176,15 @@
 
   </link>
 
-  <joint type="fixed" name="camera_joint">
+ 
+  <joint name="camera_joint" type="fixed">
     <origin xyz="0.2 0 0" rpy="0 0 0"/>
-    <child link="camera"/>
     <parent link="chassis"/>
-    <axis xyz="0 1 0" rpy="0 0 0"/>
-   </joint>
+    <child link="camera"/>
+    <!--axis xyz="0 1 0" rpy="0 0 0"/-->
+  </joint>
+
+
 
   <link name="hokuyo">
     <inertial>
@@ -211,6 +214,21 @@
 
   </link>
 
+<link name="camera_link_optical">
+    
+  </link>
+
+ 
+  <joint name="camera_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <parent link="camera"/>
+    <child link="camera_link_optical"/>
+    <!--axis xyz="0 1 0" rpy="0 0 0"/-->
+  </joint>
+
+
+
+
   <joint type="fixed" name="hokuyo_joint">
     <origin xyz="0.15 0 0.1" rpy="0 0 0"/>
     <child link="hokuyo"/>
@@ -232,6 +250,10 @@
 
  <gazebo reference="camera">
  <material>Gazebo/Yellow</material>
+ </gazebo>
+
+ <gazebo reference="camera_link_optical">
+ <material>Gazebo/Blue</material>
  </gazebo>
 
 </robot>

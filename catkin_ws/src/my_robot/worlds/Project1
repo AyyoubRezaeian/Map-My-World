@@ -3544,28 +3544,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='HumanoidRobot'>
-        <pose frame=''>0.188521 -0.314999 0.200015 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose frame=''>0.188521 -0.314999 0.200015 0 -0 0</pose>
-          <velocity>0 0.000909 0.001601 -0.004571 0 0</velocity>
-          <acceleration>0 1.81823 3.2027 -2.85845 0 0</acceleration>
-          <wrench>0 1.81823 3.2027 0 -0 0</wrench>
-        </link>
-        <link name='link_1'>
-          <pose frame=''>0.188521 -0.615058 0.200015 1.5705 -0 0</pose>
-          <velocity>0 0.000913 0.002973 -0.004566 0 0</velocity>
-          <acceleration>0 1.82595 5.94642 -2.8487 0 0</acceleration>
-          <wrench>0 1.82595 5.94642 0 -0 0</wrench>
-        </link>
-        <link name='link_1_clone'>
-          <pose frame=''>0.188521 -0.01494 0.200015 1.5705 -0 0</pose>
-          <velocity>0 0.000913 0.000228 -0.004566 0 0</velocity>
-          <acceleration>0 1.8263 0.456461 -2.84839 0 0</acceleration>
-          <wrench>0 1.8263 0.456461 0 -0 0</wrench>
-        </link>
-      </model>
+
       <model name='cafe_table'>
         <pose frame=''>-2.38585 1.26922 0 0 -0 0</pose>
         <scale>1 1 1</scale>
