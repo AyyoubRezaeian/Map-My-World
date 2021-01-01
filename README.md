@@ -1,5 +1,5 @@
-# Where-Am-I
-This is a project to localize a robot inside a building by using [adaptive monte-carlo localization(AMCL) algorithm](http://wiki.ros.org/amcl). 
+# SLAM: Map my world
+This is a project to run SLAM for a robot moving inside a building by using rtabmap graph-based SLAM using RGB-D and lidar. 
 
 # Run the project: 
 * Clone the repository
@@ -8,12 +8,13 @@ This is a project to localize a robot inside a building by using [adaptive monte
 ```
 roslaunch my_robot world.launch
 ```
-* Launch amcl node
-```
-roslaunch my_robot amcl.launch
-```
-
 * Use teleop node to move robot around
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+* Launch amcl node
+```
+roslaunch my_robot mapping.launch
+```
+
+
